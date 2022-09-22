@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:wght@300&display=swap');
-
 @font-face {
     font-family:'orkney';
     src: url(../fonts/orkney-regular.otf);
@@ -10,7 +8,7 @@ body{
     padding: 0px;
     font-family: 'Orkney';
     background-image: url("../images/background.png.jpg");
-    background-position: center;
+    /* background-position: center; */
     background-repeat:no-repeat;
 }
 header{
@@ -53,6 +51,7 @@ header{
     background-color:#1b1b1e;
     color: #fbfffe;
     border-color: #1b1b1e;
+    box-shadow: 3px 3px 6px #1b1b1e;
 }
 
 
@@ -91,11 +90,14 @@ legend{
 }
 
 .article_1{
-    padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .article_2{
-    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+.twitter-tweet{
+    width: 600px; 
 }
 
 footer{
