@@ -12,6 +12,8 @@ body{
     font-family: 'Bahnschrift', Georgia, Arial;
 }
 
+/* ----------------- Début du Header -------------- */
+
 header button{
     font-family: 'Bahnschrift';
     font-size: 20px;
@@ -65,6 +67,8 @@ nav {
     color: #fff;
 }
 
+/* -------------------------- Début du main ------------------- */
+
 .main_container{
     height: 77vh ;
     background-image: url(../images/homepage_bg.png);
@@ -76,11 +80,35 @@ nav {
 }
 
 .container_issue{
+    width: 535px;
+    height: 400px;
+    display: flex;
+    flex-flow: wrap;
+    font-size: 25px;
+    background-color: #f4f4f4;
+}
 
+.container_issue p{
+    font-size: 44px;
+}
+
+
+.container_issue a{
+    font-size: 16px;
+}
+
+.container_issue fieldset{
+    border: none;
 }
 
 .container_slogan{
+    width: 520px;
+    height: 225px;
+}
 
+.container_slogan h1{
+    font-size: 50px;
+    color: #fff;
 }
 
 .container_issue legend{
